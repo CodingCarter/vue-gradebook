@@ -30,9 +30,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-$txt-primary: #304d6d;
-$txt-secondary: #545e75;
-
 body {
   margin: 0;
   min-height: 100vh;
@@ -44,11 +41,11 @@ body {
   flex-direction: column;
   font-family: "Nunito";
   padding: 3rem;
-  color: $txt-secondary;
+  color: #545e75;
 
   h1,
   h2 {
-    color: $txt-primary;
+    color: #304d6d;
     margin: 0;
   }
 
