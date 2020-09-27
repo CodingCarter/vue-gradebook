@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     formatGrade(grade: number, maxPoints: number) {
-      return Math.floor(grade / maxPoints * 1000) / 10;
+      return Math.floor(grade / maxPoints * 1000 + .5) / 10;
     }
   }
 };
