@@ -13,8 +13,6 @@
     <label>
       <input
         type="number"
-        min="0"
-        max="100"
         placeholder="8"
         required
         v-model="formGrade.grade"
@@ -22,8 +20,6 @@
       points out of
       <input
         type="number"
-        min="0"
-        max="100"
         placeholder="10"
         required
         v-model="formGrade.maxPoints"
